@@ -1,0 +1,49 @@
+# Ignore user-specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build and object files
+bin/
+obj/
+Debug/
+Release/
+packages/
+*.dll
+*.exe
+*.pdb
+*.dll.config
+
+# Ignore .NET Core files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.swp
+*.swo
+
+# Ignore Visual Studio files
+[Tt]humbs.db
+*.log
+*.vspscc
+*.vssscc
+Backup*/.vssscc
+
+# Ignore Rider files
+.idea
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore Windows image file caches and other hidden folders
+$RECYCLE.BIN/
+Thumbs.db/
+ehthumbs.db/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+
+
